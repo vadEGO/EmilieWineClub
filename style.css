@@ -521,6 +521,44 @@ strong { font-weight: 700; }
   margin: 0 auto;
 }
 
+/* ===== FAQ ===== */
+.faq-section {
+  padding: var(--s-4xl) var(--s-xl);
+  background: var(--ivory);
+}
+.faq-section__inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.faq-list { display: flex; flex-direction: column; gap: var(--s-xl); }
+.faq-item__q {
+  font-family: var(--ff-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--stone);
+  margin-bottom: var(--s-sm);
+}
+.faq-item__a {
+  font-family: var(--ff-sans);
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--soft);
+  line-height: 1.85;
+}
+.ai-summary {
+  margin-top: var(--s-2xl);
+  padding-top: var(--s-xl);
+  border-top: 1px solid var(--cream);
+}
+.ai-summary p {
+  font-family: var(--ff-sans);
+  font-size: 0.6875rem;
+  font-weight: 300;
+  color: var(--blush);
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+}
+
 /* ===== Provence Section ===== */
 .provence {
   display: grid;
